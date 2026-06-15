@@ -16,7 +16,7 @@ Utils.initializeTrackbars()
 count = 0
 
 while True:
-    webCamFeed = False
+
     if webCamFeed:
         success, img = cap.read()
         if not success:  # FIX: checar falha de leitura explicitamente (boas práticas py3.12)
